@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1 Project</title>
+    <link rel="stylesheet" href="styles_Q1Project.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header and footer background color */
+        header, footer {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3e63f4;
+        }   
+
+        /* Adjust image sizes */
+        .logo {
+            width: 80px;
+            height: auto;
+        }
+
+        .profile {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .work img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+
+        header, .hero, .section, footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="https://media.istockphoto.com/id/616902766/photo/dedicated-to-software-development.jpg?s=1024x1024&w=is&k=20&c=h0J7NUeyykHEVp91onhXvaEoKafOvlj6Jzb37kXweMI=" class="logo" alt="Logo">
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#works">My Works</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://static.vecteezy.com/system/resources/previews/032/176/191/non_2x/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector.jpg" alt="Profile Picture" class="profile">
+        <h1>Hello, I'm Dejan Casey P. Laysa</h1>
+        <p>Student | Beginner Web Developer</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi! I'm <span style="color:#3b5bdb; font-weight:bold;">Dejan Casey P. Laysa</span>, 
+        a Grade 9 student who enjoys learning about web design and coding. 
+        I like creating simple web pages and exploring how HTML and CSS work together.</p>
+    </section>
+
+    <!-- My Works Section -->
+    <section id="works" class="section">
+        <h2>My Works</h2>
+
+        <div class="work">
+            <img src="89192a33-1fc4-4d9b-9fc2-732d0161702f.jpg" alt="Project 1">
+            <div class="work-info">
+                <h3>My School Portfolio</h3>
+                <ul>
+                    <li>HTML and CSS Practice</li>
+                    <li>Includes Lists and Images</li>
+                    <li>Made for ICT Project</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="https://media.istockphoto.com/id/1007557230/photo/movie-projector-on-dark-background.jpg?s=1024x1024&w=is&k=20&c=0cMSe-iphQA4VPhY8mNUz26xvdt7bRTH_hNt_znx9M0=" alt="Project 2">
+            <div class="work-info">
+                <h3>My Favorite Movies</h3>
+                <ul>
+                    <li>Used Ordered Lists</li>
+                    <li>Simple Layout</li>
+                    <li>Fun Activity</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label>How did you find me?</label><br>
+            <input type="radio" name="find" value="friend"> Friend
+            <input type="radio" name="find" value="google"> Google
+            <input type="radio" name="find" value="school"> School<br><br>
+
+            <label>What are you interested in?</label><br>
+            <input type="checkbox" name="interest" value="web"> Web Design
+            <input type="checkbox" name="interest" value="art"> Art
+            <input type="checkbox" name="interest" value="music"> Music<br><br>
+
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Type your message here..."></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Dejan Casey P. Laysa | ICT 9 Project</p>
+    </footer>
+</body>
+</html>
+    
